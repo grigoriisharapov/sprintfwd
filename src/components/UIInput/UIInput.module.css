@@ -1,0 +1,22 @@
+.input {
+  height: 36px;
+  border: 0;
+  background-color: #F4F7FC;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #121212;
+  box-sizing: border-box;
+}
+
+.disabled {
+  background-color: #A5AAB5;
+}
+
+
+@media screen and (max-width: 833px) {
+  .input {
+    height: 45px;
+  }
+}

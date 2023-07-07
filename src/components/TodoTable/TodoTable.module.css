@@ -1,0 +1,84 @@
+.query {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter {
+  width: 40%;
+}
+
+.addtodo {
+  width: 60%;
+  display: flex;
+  padding-right: 30px;
+}
+
+.list {
+  margin-top: 40px;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+}
+
+.todo {
+  gap: 20px;
+  display: flex;
+  padding: 20px;
+}
+
+.checktodo {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.checktodo:hover {
+  opacity: 0.7;
+}
+
+.empty {
+  padding: 20px;
+  text-align: center;
+  color: #7A7E86;
+}
+
+.delete {
+  width: 156px;
+  background-color: #7A7E86;
+}
+
+.delete:hover {
+  background-color: #EB5757;
+}
+
+.updateinput {
+  width: 100%;
+  background-color: white;
+}
+
+.updateinputdisbled {
+  width: 100%;
+  background-color: white;
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 833px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .addtodo {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .filter {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
